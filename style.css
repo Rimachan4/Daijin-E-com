@@ -372,6 +372,6 @@ p{
 
 #page-header h2,
 #page-header p{
-
+  color: var(--color-white);
 }
 /* Shop page end */
