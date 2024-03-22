@@ -15,7 +15,7 @@
 <body>
 
   <section id="header">
-    <a href="#"><img src="img/logo pdc.png" class="logo" alt=""></a>
+    <a href="index.html"><img src="img/logo pdc.png" class="logo" alt=""></a>
     <div>
       <ul id="navbar">
         <li><a href="index.html">Home</a></li>
@@ -43,24 +43,16 @@
         <div class="small-img-group">
 
             <div class="small-img-col">
-                <div class="small-img-column">
                     <img src="img/products/f1.jpg" class="small-img" alt="" width="100%">
-                </div>
             </div>
             <div class="small-img-col">
-                <div class="small-img-column">
                     <img src="img/products/f2.jpg" class="small-img" alt="" width="100%">
-                </div>
             </div>
             <div class="small-img-col">
-                <div class="small-img-column">
                     <img src="img/products/f3.jpg" class="small-img" alt="" width="100%">
-                </div>
             </div>
             <div class="small-img-col">
-                <div class="small-img-column">
                     <img src="img/products/f4.jpg" class="small-img" alt="" width="100%">
-                </div>
             </div>
 
         </div>
@@ -68,7 +60,7 @@
     </div>
 
     <div class="single-pro-details">
-        <h6>Home /T-Shirt</h6>
+        <h1>Home /T-Shirt</h1>
         <h4>Men's  Fashion T Shirt</h4>
         <h2>$139.00</h2>
         <select name="" id="">
@@ -89,6 +81,83 @@
     </div>
   </section>
 
+  
+<section id="product1" class="section-p1">
+ <h2>Featured Products</h2>
+ <p>Summer Collections New Modern Designs
+
+ </p>
+    <div class="pro-container">
+      <div class="pro">
+        <img src="img/f6.jpg" alt="">
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronaut T-Shirts</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4><h3><span class="strikethrough">$80</span> $78</h3></h4>
+         </div>
+       <a href="#"><i class="fal fa-sh"></i></a>
+      </div>
+    
+      <div class="pro">
+        <img src="img/f8.jpg" alt="">
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronaut T-Shirts</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4><h3><span class="strikethrough">$80</span> $78</h3></h4>
+          </div>
+       <a href="#"><i class="fal fa-sh"></i></a>
+      </div>
+    
+    
+    <div class="pro">
+      <img src="img/f5.jpg" alt="">
+      <div class="des">
+        <span>adidas</span>
+        <h5>Cartoon Astronaut T-Shirts</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4><h3><span class="strikethrough">$80</span> $78</h3></h4>
+       </div>
+     <a href="#"><i class="fal fa-sh"></i></a>
+    </div>
+    
+    <div class="pro">
+      <img src="img/n8.jpg" alt="">
+      <div class="des">
+        <span>adidas</span>
+        <h5>Cartoon Astronaut T-Shirts</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4><h3><span class="strikethrough">$80</span> $78</h3></h4>
+       </div>
+     <a href="#"><i class="fal fa-sh"></i></a>
+    </div>
+    </div>
+    </section>
 
   <section id="newsletter">
     <div class="newstext">
@@ -139,7 +208,22 @@
     </div>    </div>
   </footer>
 
-  
+  <script>
+    var MainImg= document.getElementById("MainImg");
+    var smallimg = document.getElementsByClassName("small-img");
+    smallimg[0].onclick = function(){
+        MainImg.src= smallimg[0].src;
+    }
+    smallimg[1].onclick = function(){
+        MainImg.src= smallimg[1].src;
+    }
+    smallimg[2].onclick = function(){
+        MainImg.src= smallimg[2].src;
+    }
+    smallimg[3].onclick = function(){
+        MainImg.src= smallimg[3].src;
+    }
+  </script>
   
 
   
