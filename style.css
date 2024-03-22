@@ -107,7 +107,7 @@ body {
 
 #hero {
  
-  background-image: url("Person.png");
+  background-image: url("img/Person.png");
   background-color:rgb(233, 233, 146);
   height: 630px;
   width: 100%;
@@ -338,3 +338,9 @@ p{
 #newsletter p{
   padding-left:15px;
 }
+
+
+/* Shop page start */
+
+
+/* Shop page end */
