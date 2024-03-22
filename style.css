@@ -435,17 +435,27 @@ p{
   border: #000000;
 
 }
+
 #pro-detials .single-pro-details input{
   width: 50ox;
   height: 47px;
   padding-left: 10px;
   font-size: 16px;
   margin-right: 10px;
+  min-width: fit-content;
 }
+
 #pro-detials .single-pro-details input:focus{
   outline: none;
   padding: 10px 20px;
   border-radius: 10px;
+}
+#pro-detials .single-pro-details button{
+  color: var(--color-white);
+  background-color: #088178;
+}
+#sp-btn{
+  width: 50px;
 }
 #pro-detials .single-pro-details span{
   line-height: 25px;
