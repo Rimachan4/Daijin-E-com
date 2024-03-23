@@ -347,7 +347,11 @@ p{
   padding-top:2px;
   padding-left:15px;
 }
-
+.form button{
+  border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
 #newsletter input{
   padding-left:15px;
 }
@@ -436,13 +440,22 @@ p{
 
 }
 
-#pro-detials .single-pro-details input{
-  width: 50ox;
+#pro-detials .single-pro-details input{  
+  width: 50px; 
   height: 47px;
   padding-left: 10px;
   font-size: 16px;
   margin-right: 10px;
   min-width: fit-content;
+}
+#pro-detials .single-pro-details button{  
+  text-decoration: none;
+  background-color: #088178;
+  padding:15px 20px;
+  border: none;
+  font-weight: 600;
+  color: var(--color-white);
+  border-radius: 10px;
 }
 /* Single Product end */
 
