@@ -524,3 +524,61 @@ p{
   width: 100%;
   height: 100%;
 }
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items at the top */
+}
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  flex: 1; /* Equal width columns */
+}
+
+footer .logo img {
+  margin-top: 90px;
+  margin-right:120px;
+  align-self: flex-start; /* Align logo to the left */
+}
+
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 5px; /* Adjusted margin for spacing */
+}
+
+footer .follow {
+  display: flex;
+  align-items: flex-end; /* Align items at the bottom */
+  margin-top: auto; /* Push the follow section to the bottom */
+}
+
+footer .follow a {
+  margin-right: 10px;
+  color: #465b52;
+}
+
+footer .install .row img {
+  border: 1px solid #088178;
+  border-radius: 6px;
+}
+
+footer .install img {
+  margin: 10px 0 15px 0;
+}
+
+footer .follow a:hover,
+footer a:hover {
+  color: #088178;
+  text-decoration: underline; /* Add underline on hover */
+}
