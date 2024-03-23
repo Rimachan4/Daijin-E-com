@@ -490,7 +490,8 @@ p{
 #contact-details .details h2{
   font-size: 26px;
   line-height: 35px;
-  padding:20px;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 #contact-details .details h3{
