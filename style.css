@@ -456,3 +456,13 @@ p{
   justify-content: center;
   margin-bottom: 20px; /* Adjust as needed */
 }
+
+
+#page-header {
+  text-align: center;
+}
+
+#page-header h2,
+#page-header p {
+  margin: 0; /* Remove default margin */
+}
