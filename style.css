@@ -450,3 +450,9 @@ p{
 #page-header.about-header {
     background-image: url("img/about/banner.png");
 }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Adjust as needed */
+}
